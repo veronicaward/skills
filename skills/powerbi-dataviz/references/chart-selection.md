@@ -9,7 +9,7 @@ Before choosing a chart, answer: **What relationship am I showing?**
 | Relationship | Chart Family |
 |---|---|
 | Ranking / comparison across categories | Bar / Column |
-| Change over time | Line / Area |
+| Change over time | Line / Area (trend focus) or Bar / Column (period comparison) — use what the user asks for |
 | Part of a whole | Donut / Stacked Bar / Treemap |
 | Correlation / distribution | Scatter / Bubble / Histogram |
 | Single metric performance | KPI Card / Gauge |
@@ -24,7 +24,7 @@ Before choosing a chart, answer: **What relationship am I showing?**
 
 ### Bar & Column Charts
 
-**Use when**: Comparing discrete categories, showing ranked values, displaying survey results.
+**Use when**: Comparing discrete categories, showing ranked values, displaying survey results, or comparing metrics across time periods when the user prefers a bar over a line chart.
 
 **Rules:**
 - **Horizontal bar**: Use when category labels are long or there are 6+ categories. Easier to read left-to-right.

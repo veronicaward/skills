@@ -87,7 +87,7 @@ See `references/color-and-themes.md` for the full JSON theme structure.
 | `header` | Segoe UI Semibold | 12pt | `#252423` | Slicer headers, section labels |
 | `label` | Segoe UI | 10pt | `#252423` | Data labels, table values |
 | `boldLabel` | Segoe UI Bold | 10pt | `#252423` | Totals, grand totals |
-| `lightLabel` | Segoe UI | 10pt | `#605E5C` | Legends, button labels |
+| `lightLabel` | Segoe UI | 10pt | `#605E5C` | Legends, button labels — legend text is always `#605E5C`, never the series color; only the colored swatch/square inherits the series color |
 | `smallLabel` | Segoe UI | 9pt | `#252423` | Reference lines, dense axes |
 | `smallLightLabel` | Segoe UI | 9pt | `#605E5C` | Value axis ticks |
 
@@ -109,7 +109,7 @@ See `references/chart-selection.md` for the complete decision guide.
 | Question type | Best visual |
 |---|---|
 | How does X rank vs others? | Horizontal bar chart |
-| How did X change over time? | Line chart |
+| How did X change over time? | Line chart (trend/pattern) or bar chart (comparing discrete periods) — use whichever the user requests or best fits their goal |
 | What is X as a share of total? | Donut (≤5 categories) or stacked bar |
 | How do X and Y relate? | Scatter / bubble chart |
 | What is the current value of X? | KPI card |
